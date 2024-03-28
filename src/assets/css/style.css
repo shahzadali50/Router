@@ -1,0 +1,139 @@
+* {
+    list-style: none;
+    word-wrap: break-word;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: #000;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  section {
+    padding: 70px 0px;
+  }
+  .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    min-width: 160px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    transition: all .2s;
+}
+  
+  .btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .btn-primary {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    border-radius: 20px;
+    background-color: #3994ff !important;
+    border-color: #3994ff !important;
+    color: #ffffff;
+
+  }
+  
+  .btn-primary:hover {
+    background-color: #0076fd !important;
+    color: #ffffff;
+  }
+  /* header */
+  header {
+    box-shadow: -1px 5px 11px 0px #888888;
+  }
+  header a h3 {
+    margin-left: 85px;
+    font-size: 35px;
+    font-family: "Wide-Bold";
+    color: #0d328d;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  header div.container {
+    max-width: 1500px;
+  }
+  
+  .header {
+    background-color: #ffffff;
+  }
+  
+  .header .nav-item {
+    margin: 0px 12px;
+  }
+  
+  .navbar-light .navbar-toggler {
+    border: 2px solid #0d328d;
+  }
+  
+  .header .nav-item .nav-link {
+    position: relative;
+    font-size: 20px;
+    font-weight: 1000;
+    color: #555151;
+  
+    display: inline-block;
+  }
+  
+  .header .nav-item .nav-link::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #0d0de1;
+    transition: 0.3s;
+    bottom: 0;
+  }
+  
+  .header .nav-item .nav-link.active::after,
+  .header .nav-item .nav-link:hover:after {
+    width: 100%;
+  }
+  
+  .header .nav-item .nav-link.active,
+  .header .nav-item .nav-link:hover {
+    color: #0d328d;
+    transform: translateY(2px);
+  }
+  
+  .header .menu {
+    text-align: center;
+  }
+  .text-48px {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #6978fc;
+    margin-top: 93px;
+  }
+  
+  .banner p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140.4%;
+    color: #000122;
+  }
+  
+  .banner img {
+    /* position: absolute; */
+    max-width: 130%;
+  }

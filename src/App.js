@@ -4,12 +4,12 @@ import Layout from './Layout';
 import About from './About';
 import Home from './Home';
 import Contact from './Contact';
+import Services from './Services';
 import ErrorPage from './ErrorPage';
-import User from './User';
-import Search from './Search';
-import './index.css';
-// import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
+import './index.css';
+import './assets/css/style.css';
 
 
 
@@ -26,24 +26,19 @@ function App() {
             },
            
             {
-                path: "/contact",
-                element: <Contact/>,
-    
-            },
-            {
                 path: "/about",
                 element: <About/>,
     
             },
             {
-                path: "/user/:name",
-                element: <User/>,
+                path: "/services",
+                element: <Services/>,
     
             },
             {
-                path: "/search",
-                element: <Search/>,
-    
+              path: "/contact",
+              element: <Contact/>,
+  
             },
             {
                 path: "*",

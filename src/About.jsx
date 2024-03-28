@@ -1,9 +1,17 @@
 import React from 'react'
+import Common from './component/Common'
+import bannerImage from '../src/assets/images/banner/image.png'
 
 function About() {
   return (
     <>
-      <h1>About us</h1>
+    <Common
+      name="Welcome to About Page"
+      imgscr={bannerImage}
+      visit ="contact"
+      btname="Contact Now"
+    />
+     
     </>
   )
 }

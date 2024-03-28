@@ -1,9 +1,20 @@
 import React from 'react'
+import Common from './component/Common'
+import bannerImage from '../src/assets/images/banner/image.png'
+
+
 
 function Home() {
   return (
    <>
-    <h1>Home page</h1>
+   <Common
+    name="Lead your brand by  understanding your shopper like never before"
+      imgscr={bannerImage}
+      visit ="/services"
+      btname="Get Started Now"
+   />
+      
+      
    </>
   )
 }
